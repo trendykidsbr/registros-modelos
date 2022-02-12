@@ -21,4 +21,9 @@ header{
   width: 13%;
 }
 
-
+/*Small devices (landscape phones)*/
+@media (min-width: 576px) {
+  body{
+    background-color: red;
+  }
+}
