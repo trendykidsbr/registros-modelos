@@ -63,12 +63,13 @@ header{
 
 
 .section-empresas{
-  border: 1px solid red;
-
+  width: 95%;
+  margin: 0px 20px;
+}
+.row-empresas{
   width: 95%;
   margin: auto;
 }
-
 .empresas{
   width: 700px;
   display: inline;
@@ -97,6 +98,7 @@ header{
     width: 30%;
   }
 
+  
   .empresas{
     height: 50px;
     width: 50px;
