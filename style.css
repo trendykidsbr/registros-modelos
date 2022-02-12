@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+
 *{
   padding: 0;
   margin: 0;
@@ -7,6 +10,8 @@ body{
   background-color: #242D5C;
 }
 
+
+/*Header*/
 header{
   padding: 20px;
   background-color: white;
@@ -21,9 +26,79 @@ header{
   width: 13%;
 }
 
-/*Small devices (landscape phones)*/
-@media (min-width: 576px) {
-  body{
-    background-color: red;
+
+
+/*Restaurantes*/
+#restaurantes{
+  padding: 30px 0px;
+}
+
+#header-restaurantes{
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 100px;
+
+  width: 100%;
+}
+
+#restaurantes-title{
+  font-family: 'Potta One', cursive;
+  font-size: 2.5em;
+
+  color: rgb(206, 0, 0);
+  margin: 0px 20px;
+}
+
+#restaurante-d1{
+  background-color: red;
+  width: 7%;
+  height: 40px;
+}
+#restaurante-d2{
+  background-color: red;
+  width: 100%;
+  height: 40px;
+}
+
+
+.section-empresas{
+  border: 1px solid red;
+
+  width: 95%;
+  margin: auto;
+}
+
+.empresas{
+  width: 700px;
+  display: inline;
+  border-radius: 70%;
+  padding: 30px;
+  margin: 10px 15px;
+  background-color: white;
+
+  /*Cricle*/
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+/*MediaQueries*/
+@media (max-width: 600px) {
+  #logo{
+    width: 30%;
+  }
+
+  .empresas{
+    height: 50px;
+    width: 50px;
   }
 }
