@@ -1,23 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 
 /*MediaQueries*/
-
-@media (min-width: 600px) {
-  .empresas{
-    height: 50px;
-    width: 50px;
+@media (min-width: 1500px) {
+  #text-booking{
+    font-size: 6vw;
+  }
+  #header-marcas-foto{
+    width: 1920px;
+  }
+  #marcas-foto-title{
+    font-size: 3em;
   }
 }
-
-@media (min-width: 1200px) {
-  body{
-    background-color: gray;
+@media(max-width: 1499px) {
+  #text-booking{
+    font-size: 8vw;
+  }
+  #marcas-foto-title{
+    font-size: 3em;
   }
 }
-
-
-
-
+@media (max-width: 550px) {
+  #logo{
+    display: none;
+  }
+  #text-booking{
+    font-size: 13vw;
+  }
+  #header-marcas-foto{
+    margin-bottom: 50px;
+  }
+  #marcas-foto-d2{
+    width: 50%;
+  }
+  #marcas-foto-title{
+    font-size: 2.5em;
+  }
+}
 
 *{
   padding: 0;
@@ -26,27 +45,21 @@
 
 body{
   background-color: #242D5C;
+  overflow-x: hidden;
 }
 
-
-/*Header*/
 header{
-  padding: 20px;
-  background-color: #162FB0;
+  width: 75%;
+  margin: auto;
+  padding-top: 50px;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
 
-  text-align: center;
-}
-#logo{
-  color: #E27DEB;
-  font-size: 4vh;
-}
 #text-booking{
-  font-size: 8vh;
   font-family: 'Trebuchet MS', sans-serif;
   color: white;
   text-align: center;
@@ -65,30 +78,23 @@ header{
 }
 
 /*Restaurantes*/
-#restaurantes{
-  padding: 30px 0px;
-}
-
 #header-restaurantes{
   display: flex;
   flex-direction: row;
-
   margin-top: 100px;
-
   width: 100%;
 }
 
 #restaurantes-title{
   font-family: 'Potta One', cursive;
   font-size: 2.5em;
-
   color: rgb(206, 0, 0);
   margin: 0px 20px;
 }
 
 #restaurantes-d1{
   background-color: red;
-  width: 7%;
+  width: 20%;
   height: 40px;
 }
 #restaurantes-d2{
@@ -107,16 +113,13 @@ header{
 #header-diversao{
   display: flex;
   flex-direction: row;
-
   margin-top: 100px;
-
   width: 100%;
 }
 
 #diversao-title{
   font-family: 'Potta One', cursive;
   font-size: 2.5em;
-
   color: aqua;
   margin: 0px 20px;
 }
@@ -144,19 +147,11 @@ header{
   flex-direction: row;
   justify-content: space-between;
   margin-top: 100px;
-
-  width: 100%;
 }
 
 #marcas-foto-title{
   font-family: 'Potta One', cursive;
-  font-size: 2.5em;
-  width: 20%;
-
   text-align: center;
-
-  margin: 0px 20px;
-
   color: #E27DEB;
 }
 
@@ -167,10 +162,11 @@ header{
 }
 #marcas-foto-d2{
   background-color: #E27DEB;
-  width: 100%;
+  width: 80%;
   height: 40px;
 }
 /*End Marcas-foto*/
+
 
 /*Empresas*/
 .section-empresas{
@@ -192,8 +188,13 @@ header{
   /*Cricle*/
   height: 100px;
   width: 100px;
-
   border-radius: 50%;
   display: inline-block;
 }
 /*End Empresas*/
+
+/*Footer*/
+footer{
+
+}
+/*End Footer*/
