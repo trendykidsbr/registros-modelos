@@ -1,21 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 
 /*MediaQueries*/
-@media (max-width: 600px) {
+
+@media (min-width: 600px) {
   .empresas{
     height: 50px;
     width: 50px;
   }
 }
 
-@media (min-width: 1800px) {
-  
-  #marcas-foto-d2{
-    width: 3%;
-  }
-
-  #marcas-foto-title{
-    font-size: 0.5em;
+@media (min-width: 1200px) {
+  body{
+    background-color: gray;
   }
 }
 
@@ -196,6 +192,7 @@ header{
   /*Cricle*/
   height: 100px;
   width: 100px;
+
   border-radius: 50%;
   display: inline-block;
 }
