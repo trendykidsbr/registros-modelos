@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 /*MediaQueries*/
 @media (min-width: 1500px) {
   #text-booking{
     font-size: 6vw;
   }
+  #restaurantes-d1{
+    width: 7%;
+  }
   #header-marcas-foto{
     width: 1920px;
   }
   #marcas-foto-title{
     font-size: 3em;
+  }
+  #marcas-foto-d2{
+    width: 100%;
   }
 }
 @media(max-width: 1499px) {
@@ -19,11 +26,15 @@
   #marcas-foto-title{
     font-size: 3em;
   }
+  #marcas-foto-d2{
+    width: 80%;
+  }
 }
 @media (max-width: 550px) {
   #logo{
     display: none;
   }
+  
   #text-booking{
     font-size: 13vw;
   }
@@ -31,7 +42,7 @@
     margin-bottom: 50px;
   }
   #marcas-foto-d2{
-    width: 50%;
+    width: 60%;
   }
   #marcas-foto-title{
     font-size: 2.5em;
@@ -59,6 +70,15 @@ header{
   justify-content: space-around;
 }
 
+#logo{
+  font-family: 'PT Serif', serif;
+  font-weight: 200;
+  font-size: 3em;
+  color: #E27DEB;
+  text-align: center;
+
+}
+
 #text-booking{
   font-family: 'Trebuchet MS', sans-serif;
   color: white;
@@ -81,7 +101,7 @@ header{
 #header-restaurantes{
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
+  margin: 50px 0px;
   width: 100%;
 }
 
@@ -94,7 +114,6 @@ header{
 
 #restaurantes-d1{
   background-color: red;
-  width: 20%;
   height: 40px;
 }
 #restaurantes-d2{
@@ -113,8 +132,9 @@ header{
 #header-diversao{
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
+  margin: 50px 0px;
   width: 100%;
+
 }
 
 #diversao-title{
@@ -146,7 +166,7 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 100px;
+  margin: 50px 0px;
 }
 
 #marcas-foto-title{
@@ -162,10 +182,14 @@ header{
 }
 #marcas-foto-d2{
   background-color: #E27DEB;
-  width: 80%;
   height: 40px;
 }
 /*End Marcas-foto*/
+
+
+
+
+
 
 
 /*Empresas*/
@@ -191,10 +215,27 @@ header{
   border-radius: 50%;
   display: inline-block;
 }
+
+.empresas:hover{
+  transform: translate(0, -10px);
+  box-shadow: 5px 5px 25px rgb(0, 0, 0);
+
+
+}
 /*End Empresas*/
+
+
+
+
 
 /*Footer*/
 footer{
-
+  background-color: #161c3a;
+  padding: 20px;
+}
+footer p{
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
 }
 /*End Footer*/
