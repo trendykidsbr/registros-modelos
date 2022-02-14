@@ -217,10 +217,9 @@ header{
 }
 
 .empresas:hover{
-  transform: translate(0, -10px);
+  transform: translate(0px, -5px);
   box-shadow: 5px 5px 25px rgb(0, 0, 0);
-
-
+  transition: 0.5s;
 }
 /*End Empresas*/
 
