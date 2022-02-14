@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 
+/*MediaQueries*/
+@media (max-width: 600px) {
+  .empresas{
+    height: 50px;
+    width: 50px;
+  }
+}
+
+
+
+
+
+
 
 *{
   padding: 0;
@@ -14,19 +27,37 @@ body{
 /*Header*/
 header{
   padding: 20px;
-  background-color: white;
+  background-color: #162FB0;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-}
 
+  text-align: center;
+}
 #logo{
-  width: 13%;
+  color: #E27DEB;
+  font-size: 4vh;
+}
+#text-booking{
+  font-size: 8vh;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: white;
+  text-align: center;
 }
 
 
+.d1{
+  background-color: red;
+  width: 7%;
+  height: 40px;
+}
+.d2{
+  background-color: red;
+  width: 50%;
+  height: 40px;
+}
 
 /*Restaurantes*/
 #restaurantes{
@@ -62,12 +93,13 @@ header{
 }
 /*End Restaurantes*/
 
-/*Marcas*/
-#marca{
+
+/*Diversao*/
+#diversao{
   padding: 30px 0px;
 }
 
-#header-marca{
+#header-diversao{
   display: flex;
   flex-direction: row;
 
@@ -76,26 +108,68 @@ header{
   width: 100%;
 }
 
-#marca-title{
+#diversao-title{
   font-family: 'Potta One', cursive;
   font-size: 2.5em;
 
-  color: rgb(206, 0, 0);
+  color: aqua;
   margin: 0px 20px;
 }
 
-#marca-d1{
-  background-color: red;
+#diversao-d1{
+  background-color: aqua;
   width: 7%;
   height: 40px;
 }
-#marca-d2{
-  background-color: red;
-  width: 80%;
+#diversao-d2{
+  background-color: aqua;
+  width: 100%;
   height: 40px;
 }
+/*End Diversao*/
 
 
+/*Marcas-foto*/
+#marcas-foto{
+  padding: 30px 0px;
+}
+
+#header-marcas-foto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: 100px;
+
+  width: 100%;
+}
+
+#marcas-foto-title{
+  font-family: 'Potta One', cursive;
+  font-size: 2.5em;
+  width: 38%;
+
+  text-align: center;
+
+  margin: 0px 20px;
+
+  color: #E27DEB;
+}
+
+#marcas-foto-d1{
+  background-color: #E27DEB;
+  width: 7%;
+  height: 40px;
+}
+#marcas-foto-d2{
+  border: 1px solid red;
+  background-color: #E27DEB;
+  width: 100%;
+  height: 40px;
+}
+/*End Marcas-foto*/
+
+/*Empresas*/
 .section-empresas{
   width: 95%;
   margin: 0px 20px;
@@ -118,23 +192,4 @@ header{
   border-radius: 50%;
   display: inline-block;
 }
-
-
-
-
-
-
-
-
-/*MediaQueries*/
-@media (max-width: 600px) {
-  #logo{
-    width: 30%;
-  }
-
-  
-  .empresas{
-    height: 50px;
-    width: 50px;
-  }
-}
+/*End Empresas*/
