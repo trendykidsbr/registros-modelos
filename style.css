@@ -86,6 +86,16 @@ header{
   text-align: center;
 }
 
+.logos{
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+
+#row-empresas{
+  border: 1px solid red;
+}
+
 
 .d1{
   background-color: red;
@@ -102,7 +112,7 @@ header{
 #header-restaurantes{
   display: flex;
   flex-direction: row;
-  margin: 50px 0px;
+  margin-top: 50px;
   width: 100%;
 }
 
@@ -202,15 +212,16 @@ header{
   width: 95%;
   margin: auto;
 }
+
+/*
 .empresas{
-  width: 700px;
-  display: inline;
+  border: 1px solid red;
+  display: flex;
   border-radius: 70%;
   padding: 30px;
   margin: 10px 15px;
   background-color: white;
-
-  /*Cricle*/
+  //Cricle
   height: 70px;
   width: 70px;
   border-radius: 50%;
@@ -239,3 +250,25 @@ footer p{
   color: white;
 }
 /*End Footer*/
+
+
+.empresas{
+  border: 1px solid red;
+  margin: 10px;
+  background-color: white;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  transition-duration: 0.5s;
+  display: inline-block;
+}
+.empresas:hover{
+  transform: translate(0px, -20px);
+  box-shadow: 5px 5px 25px rgb(0, 0, 0);
+}
+
+
+#logo-bullger{
+  margin-top: 20px;
+  padding: 20px;
+}
