@@ -49,7 +49,7 @@
 }
 @media (max-width: 550px) {
   .div-logo{
-    margin-left: 150px;
+    margin-left: 100px;
   }
   #text-booking{
     display: block;
@@ -227,9 +227,8 @@ footer p{
 
 .empresas{
   border-radius: 300px;
-  width: 163px;
+  width: 150px;
   margin-top: 10px;
-  margin-left: 10px;
   transition-duration: 0.5s;
 }
 .empresas:hover{
