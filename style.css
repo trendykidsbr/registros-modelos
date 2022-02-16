@@ -228,8 +228,15 @@ footer p{
   width: 163px;
   margin-top: 10px;
   margin-left: 10px;
+  transition-duration: 0.5s;
+}
+.empresas:hover{
+  transform: translate(0px, -20px);
 }
 
 .div-empresas{
-  margin-left: 20px;
+  margin-left: 40px;
+  transition-duration: 0.5s;
 }
+
+
