@@ -7,7 +7,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+  }
+  .div-logo{
+    margin-left: 200px;
   }
   #text-booking{
     font-size: 4vw;
@@ -27,9 +30,15 @@
   }
 }
 @media(max-width: 1499px) {
+  .div-logo{
+    margin-left: 25%;
+  }
   #text-booking{
     font-size: 6vw;
     margin-top: 20px;
+    margin-left: 20%;
+    display: block;
+    text-align: center;
   }
   #marcas-foto-title{
     font-size: 3em;
@@ -39,9 +48,12 @@
   }
 }
 @media (max-width: 550px) {
+  .div-logo{
+    margin-left: 150px;
+  }
   #text-booking{
     display: block;
-    font-size: 11vw;
+    font-size: 9vw;
     margin-top: 20px;
   }
   #header-marcas-foto{
@@ -66,15 +78,21 @@ body{
 }
 
 header{
-  width: 75%;
-  margin: auto;
   padding-top: 50px;
 }
 
+.div-logo{
+  border: 5px solid white;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
 #logo{
+  margin-top: 30px;
   font-family: 'PT Serif', serif;
   font-weight: 200;
-  font-size: 3em;
+  font-size: 2.7em;
   color: #E27DEB;
   text-align: center;
 
@@ -84,11 +102,12 @@ header{
   font-family: 'Trebuchet MS', sans-serif;
   color: white;
   text-align: center;
+  margin-right: 600px;
 }
 
 
 .d1{
-  background-color: red;
+  background-color: rgb(255, 255, 108);
   width: 7%;
   height: 40px;
 }
@@ -98,27 +117,32 @@ header{
   height: 40px;
 }
 
+#restaurantes{
+  margin-bottom: 50px;
+}
+
 /*Restaurantes*/
 #header-restaurantes{
   display: flex;
   flex-direction: row;
   margin-top: 50px;
+  margin-bottom: 50px;
   width: 100%;
 }
 
 #restaurantes-title{
-  font-family: 'Potta One', cursive;
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 2.5em;
-  color: rgb(206, 0, 0);
+  color: rgb(255, 255, 154);
   margin: 0px 20px;
 }
 
 #restaurantes-d1{
-  background-color: red;
+  background-color: rgb(255, 255, 154);
   height: 40px;
 }
 #restaurantes-d2{
-  background-color: red;
+  background-color: rgb(255, 255, 154);
   width: 100%;
   height: 40px;
 }
@@ -139,19 +163,19 @@ header{
 }
 
 #diversao-title{
-  font-family: 'Potta One', cursive;
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 2.5em;
-  color: aqua;
+  color: #E27DEB;
   margin: 0px 20px;
 }
 
 #diversao-d1{
-  background-color: aqua;
+  background-color: #E27DEB;
   width: 7%;
   height: 40px;
 }
 #diversao-d2{
-  background-color: aqua;
+  background-color: #E27DEB;
   width: 100%;
   height: 40px;
 }
@@ -171,19 +195,20 @@ header{
 }
 
 #marcas-foto-title{
-  font-family: 'Potta One', cursive;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
-  color: #E27DEB;
+  color: rgb(136, 198, 240);
 }
 
 #marcas-foto-d1{
-  background-color: #E27DEB;
+  background-color: rgb(136, 198, 240);
   width: 7%;
   height: 40px;
 }
 #marcas-foto-d2{
-  background-color: #E27DEB;
+  background-color: rgb(136, 198, 240);
   height: 40px;
+  width: 72%;
 }
 /*End Marcas-foto*/
 
@@ -199,60 +224,12 @@ footer p{
 }
 /*End Footer*/
 
-
-
-.container{
-  border: 1px solid red;
-  width: 90%;
-  margin: auto;
-}
-.row{
-  display: flex;
-  width: 90%;
-  margin: auto;
-}
-.icons{
-  margin: 10px;
-  border-radius: 40px;
-}
-.logos{
-  display: inline-block;
+.empresas{
+  width: 163px;
+  margin-top: 10px;
   margin-left: 10px;
 }
 
-#div-magic-city{
-  width: 200px;
-}
-#magic-city-logo{
-  border: 1px solid red;
-  background-color: white;
-  padding: 20px;
-  border-radius: 40px;
-  width: 14vw;
-}
-#pophaus-logo{
-  width: 140px;
-}
-
-#div-arenaup{
-  background-color: #001837;
-  margin: 10px;
-  width: 150px;
-  border-radius: 40px;
-}
-#arenaup-logo{
-  margin-top: 10px;
+.div-empresas{
   margin-left: 20px;
-  width: 110px;
-  height: 80px;
-}
-
-#div-parque-monica{
-  width: 150px;
-}
-#parque-monica-logo{
-  margin-top: 7px;
-  margin-left: 27px;
-  height: 80px;
-  width: 90px;
 }
