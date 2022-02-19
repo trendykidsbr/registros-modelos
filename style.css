@@ -49,13 +49,14 @@
 }
 @media (max-width: 550px) {
   .div-logo{
-    margin-left: 100px;
+    border: 1px solid red;
+    margin-left: 80px;
   }
   #text-booking{
     display: block;
     font-size: 9vw;
     margin-top: 20px;
-    margin-left: 20%;
+    margin-left: 50px;
   }
   #header-marcas-foto{
     margin-bottom: 50px;
@@ -65,6 +66,17 @@
   }
   #marcas-foto-title{
     font-size: 2.5em;
+  }
+}
+
+
+@media (max-width: 300px){
+  .div-logo{
+    transform: translate(-40px, 0px);
+  }
+  #text-booking{
+    transform: translate(-30px, 0px);
+    font-size: 1.9em;
   }
 }
 
@@ -80,20 +92,20 @@ body{
 
 header{
   padding-top: 50px;
+  width: 85%;
+  margin: auto;
 }
 
 .div-logo{
-  border: 5px solid white;
   width: 170px;
   height: 170px;
-  border-radius: 50%;
 }
 
 #logo{
   margin-top: 30px;
   font-family: 'PT Serif', serif;
   font-weight: 200;
-  font-size: 2.7em;
+  font-size: 3em;
   color: #E27DEB;
   text-align: center;
 
